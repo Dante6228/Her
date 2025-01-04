@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Merriweather&family=Lora&family=Raleway&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Especialmente para ti</title>
+    <style>
+        body {
+            font-family: 'Lora', 'Poppins', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 flex flex-col h-screen justify-between text-white p-6">
+    <div 
+        class="fixed top-0 left-0 w-full h-full bg-cover bg-center filter blur-md z-[-1]" 
+        style="background-image: url('img/Portrait.jpg');">
+    </div>
+
+    <main class="flex flex-col items-center justify-center h-full animate__animated animate__fadeInUp">
+        <section class="flex flex-col items-center bg-gray-800 bg-opacity-75 p-5 rounded-xl shadow-lg shadow-black animate__animated animate__zoomIn">
+            <img src="img/Portrait.jpg" alt="Portada del single" class="w-full max-w-xs rounded-md mb-4 animate__animated animate__fadeIn shadow-md shadow-black">
+            <audio controls class="w-full animate__animated animate__fadeIn">
+                <source src="Her.wav" type="audio/wav">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+    </main>
+
+    <footer class="text-center p-5 text-sm bg-slate-900 rounded-xl w-2/3 m-auto mt-4 bg-opacity-85 shadow-lg shadow-black animate__animated animate__fadeInUp">
+        Esta canción fue hecha especialmente para ti. Ya te la había enseñado, pero esto es el trabajo completo, y creo que en esencia es lo que se me viene a la mente al pensar en ti. <br>❤️
+    </footer>
+</body>
+</html>
